@@ -1,0 +1,132 @@
+name: pawlly
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 2.2.9+31
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter  
+
+  #firebase
+  firebase_core: ^3.15.1
+  firebase_auth: ^5.6.2
+  firebase_crashlytics: ^4.3.9
+  firebase_analytics: ^11.5.2
+  firebase_messaging: ^15.2.9
+  flutter_local_notifications: ^17.2.3
+
+  nb_utils: ^7.1.6
+  google_fonts: ^6.2.1
+  html: ^0.15.6
+  http: ^1.4.0
+  intl: ^0.20.2
+  cached_network_image: ^3.4.1
+  url_launcher: ^6.3.1
+  share_plus: ^11.0.0
+  stream_transform: ^2.1.1
+  uuid: ^4.5.1
+  crypto: ^3.0.6
+  path_provider: ^2.1.5
+
+  # SOCIAL LOGIN
+  the_apple_sign_in: ^1.1.1
+  google_sign_in: ^6.3.0
+  googleapis: ^14.0.0
+  googleapis_auth: ^2.0.0
+  extension_google_sign_in_as_googleapis_auth: ^2.0.13
+  permission_handler: ^12.0.0+1
+
+  # State Management
+  get: ^4.7.2
+
+  # Notification
+
+  # Payment
+  phonepe_payment_sdk: ^2.0.3
+  flutter_stripe: ^11.5.0
+  razorpay_flutter: ^1.4.0
+  flutterwave_standard:
+    git:
+      url: https://github.com/iqonic-design/flutterwave_standard.git
+      ref: main
+  midpay:
+    git:
+      url: https://github.com/iqonic-design/midpay.git
+      ref: main
+  cinetpay:
+    git:
+      url: https://github.com/iqonic-design/cinetpay.git
+      ref: main
+  pay: ^3.2.1
+  flutter_paypal_checkout:
+    git:
+      url: https://github.com/iqonic-design/flutter_paypal_checkout.git
+      ref: main
+
+  flutter_paystack:
+    git:
+      url: https://github.com/iqonic-design/flutter_paystack.git
+      ref: 1.5.0
+      
+  #Storage
+  get_storage: ^2.1.1
+
+  #PhotoViewGallery
+
+  photo_view: ^0.15.0
+
+  #intent
+  android_intent_plus: ^5.3.0
+
+  datepicker_dropdown: ^0.1.7
+  file_picker: ^10.1.6
+  image_picker: ^1.1.2
+  country_picker: ^2.0.27
+
+  # MAP
+  google_maps_flutter: ^2.12.1
+  geolocator: ^14.0.0
+  geocoding: ^3.0.0
+
+  #SHIMMER
+  shimmer: ^3.0.0
+
+  flutter_localizations:
+    sdk: flutter
+  lottie: ^3.3.1
+  flutter_html: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: 5.0.0
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/flags/
+    - assets/images/
+    - assets/icons/
+    - assets/images/walkthrough_images/
+    - assets/images/dog_paw/
+    - assets/images/pet_profile/
+    - assets/images/sitter/
+    - assets/images/notification/
+    - assets/images/shop/
+    - assets/images/choosepet/
+    - assets/icons/profile_icons/
+    - assets/icons/service_icons/
+    - assets/icons/navigation/
+    - assets/icons/upi_payment/
+    - assets/images/brand/
+    - assets/lottie/
+    - assets/images/auth_images/

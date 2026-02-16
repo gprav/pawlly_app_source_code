@@ -1,0 +1,82 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+tailstap_backend/Lib/
+tailstap_backend/Scripts/
+tailstap_backend/Include/
+tailstap_backend/pyvenv.cfg
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+*.env.local
+
+# Django
+*.log
+db.sqlite3
+db.sqlite3-journal
+tailstap_backend/media/
+
+# Static files (collected)
+staticfiles/
+static/collected/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+nul
+
+# Distribution
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Testing / Coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Node (if any frontend tooling)
+node_modules/
+
+# Project-specific
+.bmad-core/
+.claude/
+docs/
+tailstap_backend/**/*.md
+flutter_windows_*/
+tailstap_backend/
+templates/
+documentation.html
+Support.html
+INSTALLATION SERVICE.txt
+
+# Misc
+*.bak
+*.tmp
+*.zip

@@ -1,0 +1,14 @@
+.footer {
+  background: $card-bg !important;
+
+  &.glass {
+    background-color: rgba($card-bg, .5);
+    border-top: 1px solid $border-color;
+  }
+}
+
+.slideouticons {
+  .iconswrapper {
+    background: var(--bs-primary-tint-40);
+  }
+}

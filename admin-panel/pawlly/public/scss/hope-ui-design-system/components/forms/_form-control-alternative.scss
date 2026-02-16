@@ -1,0 +1,111 @@
+.form-group {
+  margin-bottom: $spacer;
+
+  .input-group-text {
+    color: $gray-500;
+  }
+}
+
+.form-group-alt {
+  &.input-group {
+    box-shadow: $box-shadow-sm;
+    border-radius: $border-radius-sm;
+
+    .input-group-text {
+      color: $gray-500;
+    }
+
+    > :not(:first-child):not(.dropdown-menu) {
+      box-shadow: unset;
+
+      &.input-group-text {
+        border: 0;
+        padding-left: 0;
+      }
+    }
+
+    > :not(:last-child):not(.dropdown-menu) {
+      box-shadow: unset;
+      padding-right: 0;
+
+      &.input-group-text {
+        border: 0;
+      }
+    }
+
+    &:focus-within {
+      box-shadow: $component-active-shadow;
+    }
+  }
+
+  .form-control {
+    border: 0;
+    box-shadow: $box-shadow-sm;
+
+    &.is-valid {
+      box-shadow: $component-success-shadow;
+
+      &:focus {
+        box-shadow: $component-active-shadow;
+      }
+    }
+
+    &.is-invalid {
+      box-shadow: $component-error-shadow;
+
+      &:focus {
+        box-shadow: $component-active-shadow;
+      }
+    }
+
+    &:focus {
+      box-shadow: $component-active-shadow;
+    }
+  }
+}
+
+.form-select {
+  box-shadow: none;
+
+  &:focus {
+
+    box-shadow: none;
+  }
+}
+
+.form-control {
+  &[readonly] {
+    background-color: $input-bg;
+  }
+}
+
+.ql-container {
+  min-height: 10rem;
+}
+
+.vue-tel-input {
+  .vti__input {
+    background: transparent;
+    border: 1px solid var(--bs-border-color);
+    color: var(--bs-body-color);
+  }
+
+  .vti__dropdown {
+
+    &.open,
+    &:hover {
+      background-color: var(--bs-body-bg);
+    }
+
+    .vti__dropdown-item {
+      &.highlighted {
+        background-color: var(--bs-gray-800);
+      }
+    }
+
+    .vti__dropdown-list {
+      background-color: var(--bs-body-bg);
+      border: 1px solid var(--bs-border-color);
+    }
+  }
+}
