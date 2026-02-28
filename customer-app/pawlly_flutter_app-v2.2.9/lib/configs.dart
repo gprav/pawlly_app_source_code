@@ -58,9 +58,9 @@ const HELP_LINE_NUMBER = '+15265897485';
 /// https://apps.iqonic.design/documentation/vizion-ai-doc/build/docs/getting-started/app/Configuration/flutter#add-firebaseoptions
 const FirebaseOptions firebaseConfig = FirebaseOptions(
   appId: "",
-  apiKey: 'AIzaSyBllnPG8lVPW2DLmEjHRw-EqgvB-15jizU',
+  apiKey: '',
   projectId: 'tailstap',
-  messagingSenderId: '939285988025',
+  messagingSenderId: '',
   storageBucket: 'tailstap.firebasestorage.app',
   iosBundleId: 'com.ios.application',
 );
